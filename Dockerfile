@@ -9,5 +9,4 @@ RUN apt-get update && apt-get install -y \
         && docker-php-ext-install mysqli
 
 ADD . /var/www/html 
-RUN chmod 777 -R /var/www/html/data
 EXPOSE 80
