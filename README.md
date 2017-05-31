@@ -2,7 +2,7 @@
 
 构建：
 
-  docker build -t discuz:x3.2 ./
+  docker build -t discuz:x3.3 ./
   
 运行:
 
