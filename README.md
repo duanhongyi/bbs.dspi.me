@@ -6,4 +6,4 @@
   
 运行:
 
-  docker run --name bbs.dspi.me -v /var/www/html:/var/www/bbs.dspi.me discuz:x3.3
+  docker run --name bbs.dspi.me -d -v /var/www/html:/var/www/bbs.dspi.me discuz:x3.3
